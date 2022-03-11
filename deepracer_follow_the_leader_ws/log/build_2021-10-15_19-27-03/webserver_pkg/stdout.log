@@ -1,0 +1,75 @@
+running egg_info
+creating ../build/webserver_pkg/webserver_pkg.egg-info
+writing ../build/webserver_pkg/webserver_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/webserver_pkg/webserver_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/webserver_pkg/webserver_pkg.egg-info/entry_points.txt
+writing requirements to ../build/webserver_pkg/webserver_pkg.egg-info/requires.txt
+writing top-level names to ../build/webserver_pkg/webserver_pkg.egg-info/top_level.txt
+writing manifest file '../build/webserver_pkg/webserver_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/webserver_pkg/webserver_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/webserver_pkg/webserver_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/calibration.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/device_info_api.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/led_api.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/login.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/models.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/software_update.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/ssh_api.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/utility.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/vehicle_control.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/vehicle_logs.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/webserver.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/webserver_publisher_node.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+copying webserver_pkg/wifi_settings.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg
+running install
+running install_lib
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/calibration.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/device_info_api.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/led_api.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/login.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/models.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/software_update.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/ssh_api.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/utility.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/vehicle_control.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/vehicle_logs.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/webserver.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/webserver_publisher_node.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/build/lib/webserver_pkg/wifi_settings.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/calibration.py to calibration.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/constants.py to constants.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/device_info_api.py to device_info_api.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/led_api.py to led_api.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/login.py to login.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/models.py to models.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/software_update.py to software_update.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/ssh_api.py to ssh_api.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/utility.py to utility.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/vehicle_control.py to vehicle_control.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/vehicle_logs.py to vehicle_logs.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/webserver.py to webserver.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/webserver_publisher_node.py to webserver_publisher_node.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg/wifi_settings.py to wifi_settings.cpython-38.pyc
+running install_data
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/share/ament_index
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/share/ament_index/resource_index
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/share/ament_index/resource_index/packages
+copying resource/webserver_pkg -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/share/webserver_pkg
+copying launch/webserver_pkg_launch.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/share/webserver_pkg
+running install_egg_info
+Copying ../build/webserver_pkg/webserver_pkg.egg-info to /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/python3.8/site-packages/webserver_pkg-0.0.1-py3.8.egg-info
+running install_scripts
+Installing webserver_publisher_node script to /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/webserver_pkg/lib/webserver_pkg
+writing list of installed files to '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/webserver_pkg/install.log'

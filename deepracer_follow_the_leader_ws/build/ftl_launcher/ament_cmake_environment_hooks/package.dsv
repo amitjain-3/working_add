@@ -1,0 +1,4 @@
+source;share/ftl_launcher/local_setup.bash
+source;share/ftl_launcher/local_setup.dsv
+source;share/ftl_launcher/local_setup.sh
+source;share/ftl_launcher/local_setup.zsh

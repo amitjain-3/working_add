@@ -1,0 +1,3 @@
+[console_scripts]
+ftl_navigation_node = ftl_navigation_pkg.ftl_navigation_node:main
+

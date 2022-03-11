@@ -1,0 +1,25 @@
+[100%] Built target battery_node
+-- Install configuration: ""
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/lib/i2c_pkg/battery_node
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/include
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/include/i2c_pkg
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/include/i2c_pkg/i2c.hpp
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg//launch
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg//launch/i2c_pkg_launch.py
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/ament_index/resource_index/package_run_dependencies/i2c_pkg
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/ament_index/resource_index/parent_prefix_path/i2c_pkg
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/environment/path.sh
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/environment/path.dsv
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/local_setup.bash
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/local_setup.sh
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/local_setup.zsh
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/local_setup.dsv
+-- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/package.dsv
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/ament_index/resource_index/packages/i2c_pkg
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/cmake/i2c_pkgConfig.cmake
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/cmake/i2c_pkgConfig-version.cmake
+-- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/i2c_pkg/share/i2c_pkg/package.xml

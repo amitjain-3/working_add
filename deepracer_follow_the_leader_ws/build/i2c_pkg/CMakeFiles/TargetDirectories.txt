@@ -1,0 +1,10 @@
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/install/strip.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/install.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/list_install_components.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/rebuild_cache.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/edit_cache.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/test.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/install/local.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/battery_node.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/i2c_pkg_uninstall.dir
+/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/i2c_pkg/CMakeFiles/uninstall.dir

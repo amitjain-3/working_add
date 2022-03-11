@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info
+writing ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/requires.txt
+writing top-level names to ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/top_level.txt
+writing manifest file '../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg
+copying model_optimizer_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg
+copying model_optimizer_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg
+copying model_optimizer_pkg/model_optimizer_node.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg
+running install
+running install_lib
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/build/lib/model_optimizer_pkg/model_optimizer_node.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg/constants.py to constants.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg/model_optimizer_node.py to model_optimizer_node.cpython-38.pyc
+running install_data
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/share/ament_index
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/share/ament_index/resource_index
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/share/ament_index/resource_index/packages
+copying resource/model_optimizer_pkg -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/share/model_optimizer_pkg
+copying launch/model_optimizer_pkg_launch.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/share/model_optimizer_pkg
+running install_egg_info
+Copying ../../build/model_optimizer_pkg/model_optimizer_pkg.egg-info to /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/python3.8/site-packages/model_optimizer_pkg-0.0.1-py3.8.egg-info
+running install_scripts
+Installing model_optimizer_node script to /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/model_optimizer_pkg/lib/model_optimizer_pkg
+writing list of installed files to '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/model_optimizer_pkg/install.log'

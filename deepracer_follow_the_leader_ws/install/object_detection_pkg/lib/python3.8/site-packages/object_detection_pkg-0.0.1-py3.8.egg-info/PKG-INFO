@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: object-detection-pkg
+Version: 0.0.1
+Summary: This package contains logic for object detection from input camera images                  publish the normalized delta of the detected object from the target position.
+Home-page: UNKNOWN
+Maintainer: AWS DeepRacer
+Maintainer-email: aws-deepracer@amazon.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

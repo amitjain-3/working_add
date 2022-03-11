@@ -1,0 +1,5 @@
+  File "/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/ftl_navigation_pkg/lib/python3.8/site-packages/ftl_navigation_pkg/ftl_navigation_node_our.py", line 236
+    if time_elapsed > 1 # after 1 second, simulate slowing down "phantom" front car
+                        ^
+SyntaxError: invalid syntax
+

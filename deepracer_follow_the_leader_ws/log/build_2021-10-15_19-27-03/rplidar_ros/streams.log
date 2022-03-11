@@ -1,0 +1,540 @@
+[0.078s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp /usr/bin/cmake /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros
+[0.284s] -- The C compiler identification is GNU 9.3.0
+[0.490s] -- The CXX compiler identification is GNU 9.3.0
+[0.661s] -- Check for working C compiler: /usr/bin/cc
+[0.893s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.895s] -- Detecting C compiler ABI info
+[1.285s] -- Detecting C compiler ABI info - done
+[1.333s] -- Detecting C compile features
+[1.333s] -- Detecting C compile features - done
+[1.346s] -- Check for working CXX compiler: /usr/bin/c++
+[1.634s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.639s] -- Detecting CXX compiler ABI info
+[2.078s] -- Detecting CXX compiler ABI info - done
+[2.130s] -- Detecting CXX compile features
+[2.132s] -- Detecting CXX compile features - done
+[2.319s] -- Found ament_cmake_auto: 0.9.8 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.830s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.569s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.892s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.995s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.751s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.767s] -- Looking for pthread.h
+[6.045s] -- Looking for pthread.h - found
+[6.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.314s] -- Looking for pthread_create in pthreads
+[6.506s] -- Looking for pthread_create in pthreads - not found
+[6.507s] -- Looking for pthread_create in pthread
+[6.758s] -- Looking for pthread_create in pthread - found
+[6.761s] -- Found Threads: TRUE  
+[9.610s] -- Configuring done
+[9.735s] -- Generating done
+[9.744s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros
+[9.780s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp /usr/bin/cmake /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros
+[9.784s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros -- -j2 -l2
+[9.952s] [35m[1mScanning dependencies of target rplidar_composition_node[0m
+[10.320s] [  5%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[11.129s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[11.130s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[11.131s]    50 | #define M_PI 3.1415926535897932384626433832795
+[11.131s]       | 
+[11.133s] In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+[11.134s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[11.135s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[11.135s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[11.136s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[11.136s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[11.137s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[11.137s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[11.138s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[11.138s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[11.139s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.139s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[11.144s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.144s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[11.144s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[11.145s] [01m[K/usr/include/math.h:1070:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[11.146s]  1070 | # define M_PI  3.14159265358979323846 /* pi */
+[11.146s]       | 
+[17.808s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[17.808s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[17.810s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[17.811s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[17.811s]    59 |     _u8 data[[01;35m[K0[m[K];
+[17.812s]       |              [01;35m[K^[m[K
+[17.815s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[17.815s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[17.816s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[17.817s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[17.817s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[17.818s]       |                  [01;35m[K^[m[K
+[18.203s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[18.204s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:245:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.204s]   245 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[18.205s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[18.205s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:245:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.206s]   245 | void rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[18.206s]       |                                                       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[18.211s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[18.212s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:256:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.212s]   256 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[18.213s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[18.214s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:256:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.214s]   256 | void rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[18.215s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[18.245s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::publish_loop()[m[K’:
+[18.246s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:343:46:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kangle_compensate_nodes[m[K’ [[01;35m[K-Wvla[m[K]
+[18.246s]   343 |       rplidar_response_measurement_node_hq_t [01;35m[Kangle_compensate_nodes[m[K[angle_compensate_nodes_count];
+[18.247s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.249s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:353:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[18.250s]   353 |           for (j = 0; [01;35m[Kj < m_angle_compensate_multiple[m[K; j++) {
+[18.250s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.256s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:374:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[18.258s]   374 |       for (size_t x = start_node, y = 0; [01;35m[Kx < end_node[m[K; ++x, ++y) {
+[18.258s]       |                                          [01;35m[K~~^~~~~~~~~~[m[K
+[18.262s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:381:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_min[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.262s]   381 |     float [01;35m[Kangle_min[m[K = deg_2_rad(0.0f);
+[18.263s]       |           [01;35m[K^~~~~~~~~[m[K
+[18.264s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/rplidar_node.cpp:382:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.264s]   382 |     float [01;35m[Kangle_max[m[K = deg_2_rad(359.0f);
+[18.265s]       |           [01;35m[K^~~~~~~~~[m[K
+[28.819s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[31.173s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[31.174s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[31.174s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[31.175s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[31.179s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[31.180s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[31.180s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[31.181s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[31.182s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[31.182s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[31.183s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[31.183s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[31.185s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[31.185s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[31.185s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[31.186s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[31.674s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[33.236s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[33.236s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[33.237s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[33.237s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[33.237s]    59 |     _u8 data[[01;35m[K0[m[K];
+[33.238s]       |              [01;35m[K^[m[K
+[33.241s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[33.241s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[33.241s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[33.242s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[33.242s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[33.243s]       |                  [01;35m[K^[m[K
+[33.279s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const[m[K’:
+[33.280s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17:[m[K [01;35m[Kwarning: [m[Kordered comparison of pointer with integer zero [[01;35m[K-Wextra[m[K]
+[33.280s]   170 |     return ans<=[01;35m[K0[m[K?RESULT_OPERATION_FAIL:RESULT_OK;
+[33.280s]       |                 [01;35m[K^[m[K
+[33.308s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[33.308s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[33.309s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[33.310s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[33.327s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[33.327s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:40[m[K,
+[33.327s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[33.328s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[33.328s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[33.329s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[33.329s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[34.063s] [ 22%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[35.855s] [ 27%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o[0m
+[37.386s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[37.386s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[37.386s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[37.387s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[37.387s]    59 |     _u8 data[[01;35m[K0[m[K];
+[37.387s]       |              [01;35m[K^[m[K
+[37.390s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[37.391s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[37.391s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[37.391s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[37.393s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[37.393s]       |                  [01;35m[K^[m[K
+[37.402s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[37.402s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[37.402s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[37.403s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[37.403s]       |                                                                             [01;35m[K^~~~[m[K
+[37.407s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[37.407s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[37.407s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[37.408s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[37.810s] [ 33%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[39.401s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[39.401s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[39.401s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[39.402s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[39.402s]    59 |     _u8 data[[01;35m[K0[m[K];
+[39.402s]       |              [01;35m[K^[m[K
+[39.405s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[39.406s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[39.406s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[39.406s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[39.406s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[39.407s]       |                  [01;35m[K^[m[K
+[40.085s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)[m[K’:
+[40.086s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.086s]   121 | u_result RPlidarDriverImplCommon::reset([01;35m[K_u32 timeout[m[K)
+[40.086s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[40.095s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)[m[K’:
+[40.095s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.096s]   274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, [01;35m[K_u32 timeout[m[K)
+[40.096s]       |                                                                      [01;35m[K~~~~~^~~~~~~[m[K
+[40.123s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[40.124s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K-Wignored-qualifiers[m[K]
+[40.124s]   872 | t = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance[01;35m[K)[m[K;
+[40.124s]       |                                                                                   [01;35m[K^[m[K
+[40.125s] 
+[40.132s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)[m[K’:
+[40.132s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+[40.133s]   996 |     _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[40.133s]       |                     [01;35m[K~~^~~~~[m[K
+[40.142s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[40.142s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[40.142s]  1207 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[40.143s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[40.144s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[40.145s]  1215 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[40.145s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[40.174s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[40.174s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.175s]  1453 | DriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, [01;35m[K_u32 timeoutInMs[m[K)
+[40.175s]       |                                                                                    [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[40.175s] 
+[40.183s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[40.183s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.183s]  1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, [01;35m[K_u32 options[m[K, RplidarScanMode* outUsedScanMode)
+[40.184s]       |                                                                              [01;35m[K~~~~~^~~~~~~[m[K
+[40.193s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)[m[K’:
+[40.193s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.194s]  1774 | u_result RPlidarDriverImplCommon::stop([01;35m[K_u32 timeout[m[K)
+[40.194s]       |                                        [01;35m[K~~~~~^~~~~~~[m[K
+[40.211s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)[m[K’:
+[40.211s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.212s]  2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, [01;35m[K_u32 timeout[m[K)
+[40.212s]       |                                                               [01;35m[K~~~~~^~~~~~~[m[K
+[40.217s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)[m[K’:
+[40.217s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.218s]  2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, [01;35m[K_u32 flag[m[K)
+[40.218s]       |                                                                              [01;35m[K~~~~~^~~~[m[K
+[40.222s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)[m[K’:
+[40.222s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.222s]  2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, [01;35m[K_u32 flag[m[K)
+[40.223s]       |                                                                   [01;35m[K~~~~~^~~~[m[K
+[41.675s] [ 38%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[43.105s] [ 38%] Built target rplidar_composition_node
+[43.143s] [35m[1mScanning dependencies of target rplidarNodeClient[0m
+[43.291s] [ 44%] [32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o[0m
+[43.651s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/client.cpp:43:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[43.651s]    43 | #define M_PI 3.1415926535897932384626433832795
+[43.652s]       | 
+[43.653s] In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+[43.654s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[43.654s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[43.655s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[43.655s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[43.656s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[43.656s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[43.657s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[43.657s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[43.658s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[43.658s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[43.659s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[43.660s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[43.668s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/client.cpp:38[m[K:
+[43.669s] [01m[K/usr/include/math.h:1070:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[43.669s]  1070 | # define M_PI  3.14159265358979323846 /* pi */
+[43.669s]       | 
+[65.046s] [ 50%] [32m[1mLinking CXX executable rplidarNodeClient[0m
+[66.239s] [ 50%] Built target rplidarNodeClient
+[66.274s] [35m[1mScanning dependencies of target rplidarNode[0m
+[66.428s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o[0m
+[66.788s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:51:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[66.789s]    51 | #define M_PI 3.1415926535897932384626433832795
+[66.789s]       | 
+[66.790s] In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+[66.790s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[66.791s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[66.791s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[66.791s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[66.792s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[66.792s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[66.793s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[66.794s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[66.794s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[66.794s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[66.795s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[66.795s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[66.795s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:36[m[K:
+[66.795s] [01m[K/usr/include/math.h:1070:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[66.796s]  1070 | # define M_PI  3.14159265358979323846 /* pi */
+[66.801s]       | 
+[66.802s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:231:14:[m[K [01;35m[Kwarning: [m[Kinvalid suffix on literal; C++11 requires a space between literal and string macro [[01;35m[K-Wliteral-suffix[m[K]
+[66.802s]   231 |     ROS_INFO([01;35m[K"[m[KRPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");
+[66.802s]       |              [01;35m[K^[m[K
+[73.192s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[73.194s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:45[m[K:
+[73.194s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[73.195s]    59 |     _u8 data[[01;35m[K0[m[K];
+[73.195s]       |              [01;35m[K^[m[K
+[73.198s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[73.199s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:45[m[K:
+[73.200s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[73.200s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[73.201s]       |                  [01;35m[K^[m[K
+[73.297s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool stop_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[73.298s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:166:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[73.298s]   166 | bool stop_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[73.299s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[73.300s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:167:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[73.301s]   167 |                 [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+[73.301s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[73.304s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool start_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[73.305s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:178:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[73.305s]   178 | bool start_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[73.306s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[73.307s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:179:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[73.307s]   179 |                  [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+[73.308s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[73.421s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[73.421s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:356:60:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kangle_compensate_nodes[m[K’ [[01;35m[K-Wvla[m[K]
+[73.422s]   356 |                     rplidar_response_measurement_node_hq_t [01;35m[Kangle_compensate_nodes[m[K[angle_compensate_nodes_count];
+[73.422s]       |                                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.424s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/node.cpp:360:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[73.424s]   360 |                     for( ; [01;35m[Ki < count[m[K; i++ ) {
+[73.425s]       |                            [01;35m[K~~^~~~~~~[m[K
+[81.894s] [ 61%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[83.956s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[83.957s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[83.957s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[83.957s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[83.961s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[83.962s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[83.962s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[83.962s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[83.963s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[83.964s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[83.964s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[83.965s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[83.966s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[83.967s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[83.967s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[83.967s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[84.432s] [ 66%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[85.879s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[85.879s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[85.879s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[85.880s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[85.880s]    59 |     _u8 data[[01;35m[K0[m[K];
+[85.880s]       |              [01;35m[K^[m[K
+[85.883s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[85.884s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[85.884s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[85.885s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[85.885s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[85.885s]       |                  [01;35m[K^[m[K
+[85.920s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const[m[K’:
+[85.921s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17:[m[K [01;35m[Kwarning: [m[Kordered comparison of pointer with integer zero [[01;35m[K-Wextra[m[K]
+[85.921s]   170 |     return ans<=[01;35m[K0[m[K?RESULT_OPERATION_FAIL:RESULT_OK;
+[85.921s]       |                 [01;35m[K^[m[K
+[85.951s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[85.951s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[85.952s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[85.952s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[85.961s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[85.962s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:40[m[K,
+[85.962s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[85.962s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[85.963s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[85.963s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[85.963s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[86.637s] [ 72%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[88.291s] [ 77%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o[0m
+[89.824s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[89.824s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[89.824s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[89.825s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[89.825s]    59 |     _u8 data[[01;35m[K0[m[K];
+[89.826s]       |              [01;35m[K^[m[K
+[89.827s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[89.827s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[89.828s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[89.828s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[89.828s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[89.829s]       |                  [01;35m[K^[m[K
+[89.834s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[89.835s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[89.835s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[89.835s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[89.836s]       |                                                                             [01;35m[K^~~~[m[K
+[89.838s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[89.838s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[89.839s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[89.839s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[90.247s] [ 83%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o[0m
+[91.775s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[91.775s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[91.775s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[91.776s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[91.777s]    59 |     _u8 data[[01;35m[K0[m[K];
+[91.778s]       |              [01;35m[K^[m[K
+[91.778s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[91.778s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[91.779s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[91.779s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[91.779s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[91.779s]       |                  [01;35m[K^[m[K
+[92.451s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)[m[K’:
+[92.452s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.452s]   121 | u_result RPlidarDriverImplCommon::reset([01;35m[K_u32 timeout[m[K)
+[92.452s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[92.457s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)[m[K’:
+[92.458s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.458s]   274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, [01;35m[K_u32 timeout[m[K)
+[92.459s]       |                                                                      [01;35m[K~~~~~^~~~~~~[m[K
+[92.485s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[92.486s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K-Wignored-qualifiers[m[K]
+[92.486s]   872 | t = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance[01;35m[K)[m[K;
+[92.486s]       |                                                                                   [01;35m[K^[m[K
+[92.487s] 
+[92.495s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)[m[K’:
+[92.495s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+[92.495s]   996 |     _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[92.496s]       |                     [01;35m[K~~^~~~~[m[K
+[92.507s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[92.507s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[92.508s]  1207 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[92.508s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[92.509s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[92.510s]  1215 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[92.510s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[92.535s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[92.535s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.535s]  1453 | DriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, [01;35m[K_u32 timeoutInMs[m[K)
+[92.536s]       |                                                                                    [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[92.536s] 
+[92.539s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[92.540s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.540s]  1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, [01;35m[K_u32 options[m[K, RplidarScanMode* outUsedScanMode)
+[92.541s]       |                                                                              [01;35m[K~~~~~^~~~~~~[m[K
+[92.547s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)[m[K’:
+[92.547s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.548s]  1774 | u_result RPlidarDriverImplCommon::stop([01;35m[K_u32 timeout[m[K)
+[92.548s]       |                                        [01;35m[K~~~~~^~~~~~~[m[K
+[92.563s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)[m[K’:
+[92.563s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.563s]  2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, [01;35m[K_u32 timeout[m[K)
+[92.564s]       |                                                               [01;35m[K~~~~~^~~~~~~[m[K
+[92.568s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)[m[K’:
+[92.568s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.568s]  2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, [01;35m[K_u32 flag[m[K)
+[92.569s]       |                                                                              [01;35m[K~~~~~^~~~[m[K
+[92.571s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)[m[K’:
+[92.571s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[92.572s]  2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, [01;35m[K_u32 flag[m[K)
+[92.572s]       |                                                                   [01;35m[K~~~~~^~~~[m[K
+[94.038s] [ 88%] [32m[1mLinking CXX executable rplidarNode[0m
+[95.049s] [ 88%] Built target rplidarNode
+[95.081s] [35m[1mScanning dependencies of target rplidar_composition[0m
+[95.239s] [ 94%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[95.594s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[95.595s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[95.595s]    50 | #define M_PI 3.1415926535897932384626433832795
+[95.595s]       | 
+[95.595s] In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+[95.596s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[95.596s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[95.596s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[95.597s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[95.597s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[95.597s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[95.598s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[95.598s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[95.598s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[95.598s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[95.599s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[95.599s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[95.599s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[95.600s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[95.600s] [01m[K/usr/include/math.h:1070:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[95.600s]  1070 | # define M_PI  3.14159265358979323846 /* pi */
+[95.601s]       | 
+[102.084s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[102.084s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[102.085s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[102.085s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[102.085s]    59 |     _u8 data[[01;35m[K0[m[K];
+[102.086s]       |              [01;35m[K^[m[K
+[102.086s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[102.087s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[102.087s]                  from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[102.087s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[102.088s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[102.088s]       |                  [01;35m[K^[m[K
+[103.832s] In file included from [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[103.833s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/rplidar_ros2/include/rplidar_node.hpp:76:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[103.833s]    76 | static float [01;35m[KgetAngle[m[K(const rplidar_response_measurement_node_hq_t& node)
+[103.833s]       |              [01;35m[K^~~~~~~~[m[K
+[104.315s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[105.114s] [100%] Built target rplidar_composition
+[105.154s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros -- -j2 -l2
+[105.329s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros
+[105.363s] -- Install configuration: ""
+[105.365s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[105.533s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode" to ""
+[105.533s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[105.538s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient" to ""
+[105.538s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[105.630s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+[105.631s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch
+[105.631s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[105.632s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[105.632s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[105.633s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[105.633s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[105.633s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[105.634s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[105.634s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[105.635s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[105.635s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[105.636s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[105.636s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[105.637s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[105.637s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/librplidar_composition_node.so" to ""
+[105.638s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/include
+[105.638s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/include/rplidar_node.hpp
+[105.639s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/include/visibility.h
+[105.639s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[105.639s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[105.640s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[105.643s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[105.645s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[105.646s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[105.647s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[105.649s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[105.650s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[105.651s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[105.653s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[105.654s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[105.655s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[105.657s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[105.658s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[105.660s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.662s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[105.663s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[105.665s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[105.666s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[105.677s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros

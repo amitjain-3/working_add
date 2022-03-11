@@ -1,0 +1,49 @@
+[0.049s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros -- -j2 -l2
+[0.315s] [ 38%] Built target rplidar_composition_node
+[0.416s] [ 50%] Built target rplidarNodeClient
+[0.512s] [ 88%] Built target rplidarNode
+[0.640s] [100%] Built target rplidar_composition
+[0.680s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros -- -j2 -l2
+[0.877s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros
+[0.909s] -- Install configuration: ""
+[0.915s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[0.921s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[0.928s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.929s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch
+[0.929s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[0.930s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[0.931s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[0.931s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[0.931s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[0.932s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[0.932s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[0.932s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[0.933s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[0.933s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[0.934s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[0.939s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[0.940s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[0.940s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/include
+[0.941s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/include/rplidar_node.hpp
+[0.941s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/include/visibility.h
+[0.942s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[0.943s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[0.943s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.949s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.950s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.951s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.952s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.957s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.959s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.959s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.960s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.960s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.961s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.961s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.962s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.962s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.963s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.964s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.964s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.965s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.966s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/rplidar_ros

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info
+writing ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/requires.txt
+writing top-level names to ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/top_level.txt
+writing manifest file '../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg
+copying deepracer_navigation_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg
+copying deepracer_navigation_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg
+copying deepracer_navigation_pkg/deepracer_navigation_node.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg
+running install
+running install_lib
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg
+copying /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/build/lib/deepracer_navigation_pkg/deepracer_navigation_node.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg/constants.py to constants.cpython-38.pyc
+byte-compiling /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg/deepracer_navigation_node.py to deepracer_navigation_node.cpython-38.pyc
+running install_data
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/share/ament_index
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/share/ament_index/resource_index
+creating /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/share/ament_index/resource_index/packages
+copying resource/deepracer_navigation_pkg -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/share/deepracer_navigation_pkg
+copying launch/deepracer_navigation_pkg_launch.py -> /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/share/deepracer_navigation_pkg
+running install_egg_info
+Copying ../../build/deepracer_navigation_pkg/deepracer_navigation_pkg.egg-info to /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/python3.8/site-packages/deepracer_navigation_pkg-0.0.1-py3.8.egg-info
+running install_scripts
+Installing deepracer_navigation_node script to /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_navigation_pkg/lib/deepracer_navigation_pkg
+writing list of installed files to '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/deepracer_navigation_pkg/install.log'

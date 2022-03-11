@@ -1,0 +1,39 @@
+[0.123s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp -- -j2 -l2
+[0.844s] [ 83%] Built target async_web_server_cpp
+[0.991s] [100%] Built target test_web_server
+[1.035s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp' returned '0': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp -- -j2 -l2
+[1.400s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp
+[1.515s] -- Install configuration: ""
+[1.516s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.sh
+[1.517s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.dsv
+[1.518s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/ament_index/resource_index/package_run_dependencies/async_web_server_cpp
+[1.519s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/ament_index/resource_index/parent_prefix_path/async_web_server_cpp
+[1.522s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.sh
+[1.523s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.dsv
+[1.526s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.sh
+[1.528s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.dsv
+[1.528s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.bash
+[1.530s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.sh
+[1.534s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.zsh
+[1.535s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.dsv
+[1.536s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/package.dsv
+[1.538s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/ament_index/resource_index/packages/async_web_server_cpp
+[1.539s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.540s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.541s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[1.542s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig.cmake
+[1.543s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig-version.cmake
+[1.550s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/package.xml
+[1.555s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/lib/libasync_web_server_cpp.so
+[1.555s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp
+[1.556s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_header.hpp
+[1.556s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_request.hpp
+[1.556s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_request_handler.hpp
+[1.556s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_request_parser.hpp
+[1.557s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_server.hpp
+[1.557s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/websocket_connection.hpp
+[1.557s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/websocket_message.hpp
+[1.558s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/websocket_request_handler.hpp
+[1.558s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_connection.hpp
+[1.558s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_reply.hpp
+[1.575s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp' returned '0': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp
